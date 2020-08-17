@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+  
+<suite name="Flipkart online shopping application" verbose="1" >
+  <test name="Online shopping test automation" >
+    <classes>
+       <class name="com.testcases.loginpage"></class>
+       <class name="com.testcases.Homepage"></class>
+       <class name="com.testcases.Mobile"></class>
+    </classes>
+  </test>
+</suite>
